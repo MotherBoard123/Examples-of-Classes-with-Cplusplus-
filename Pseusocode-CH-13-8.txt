@@ -1,0 +1,31 @@
+Brandon West
+
+Chapter 13.8 HW
+Pseudocode
+
+
+
+include libraries:
+cstdlib, iomanip, oistream
+
+Class Declaration:
+TstScore
+
+Declare private members:
+int score;	//test score for each student		
+int avg;	//Averge test score for all students
+
+Declare Public:
+constructor: initialize score and avg to zero
+void setScor()   //Called when user needs to enter test scores
+void getAvg() //Called when user needs to get average test scores
+
+Output: Ask user to enter test score for each student
+//Call setScor member function
+
+Next program will call getAvg function to calculate the average test score for each student.
+
+Next program will output the calculated average.
+Output result:		student total test score / number of tests.
+
+Close application.
